@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'f1';
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'f2';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'f3';
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+body{
+    background-color: #F6D050;
+}
+
+.father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    width: 430px;
+    height: 550px;
+    box-shadow: 10px 10px 0px black;
+    border: 1px solid black;
+}
+
+.imgu{
+    width: 100%;
+}
+
+h1,p{
+    padding: 13px;
+}
+
+p{
+    font-family: 'f2';
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'f3';
+}
+
+.pu{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F5D35B;
+}
+
+.pt{
+    font-size: 19px;
+    color: #8b8989;
+} 
+
+.imgd{
+    height: 50px;
+    width: 50px;
+}
+
+.greg{
+    display: flex;
+    align-items: center;  
+}
+
+.pq{
+    font-family: 'f2';
+    font-weight: bold;
+}
